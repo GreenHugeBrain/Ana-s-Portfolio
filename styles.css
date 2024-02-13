@@ -442,18 +442,9 @@ ul li {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  display: none;
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: #351b31;
-  border-radius: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #fff4f4;
-  border-radius: 6px;
-}
 
 .loading-screen {
   position: fixed;
