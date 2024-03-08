@@ -901,11 +901,19 @@ form[name="submit-to-google-sheet"] button:hover {
   .section-first section, .section-second section {
     padding: 0px;
   }
+
+  input, textarea {
+    pointer-events: auto;
+  }
 }
 
 @media (max-width: 768px) {
   * {
     pointer-events: none;
+  }
+
+  input, textarea {
+    pointer-events: auto;
   }
 
   nav {
@@ -975,6 +983,10 @@ form[name="submit-to-google-sheet"] button:hover {
       align-items: center;
   }
 
+  input, textarea {
+    pointer-events: auto;
+  }
+
   .header-container ul.active {
       display: block;
   }
@@ -1011,5 +1023,9 @@ form[name="submit-to-google-sheet"] button:hover {
 
   .background-shapes{
     display: none;
+  }
+
+  input, textarea {
+    pointer-events: auto;
   }
 }
