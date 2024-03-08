@@ -500,6 +500,8 @@ ul li {
 
 }
 
+
+
 .blur-container {
   position: fixed;
   top: 0;
@@ -906,35 +908,33 @@ form[name="submit-to-google-sheet"] button:hover {
     pointer-events: none;
   }
 
-  nav{
+  nav {
     width: 626px;
   }
 
-  ul li{
+  ul li {
     font-size: 16px;
   }
 
   .first-shape,
-  .second-shape{
+  .second-shape {
     width: 79px;
   }
 
-  .background-shapes{
+  .background-shapes {
     gap: 461px;
   }
 
   .sections-first,
-  .sections-second{
+  .sections-second {
     display: grid;
   }
   
-  section{
+  section {
     width: 390px;
   }
 
-
-
-  .about{
+  .about {
     height: 1442px;
   }
 
@@ -942,26 +942,29 @@ form[name="submit-to-google-sheet"] button:hover {
     display: grid;
   }
 
-  .skills-first{
+  .skills-first {
     height: 200px ;
   }
 
   .top-line,
-  .bottom-line{
+  .bottom-line {
     display: none;
   }
 
-  .skills{
+  .skills {
     display: flex;
     gap: 60px;
   }
 
-  .projects{
+  .projects {
     margin-top: 92px;
   }
   
-  .section-first{
+  .section-first {
     display: grid;
+  }
+  .background-shapes{
+    display: none;
   }
 }
 
@@ -980,27 +983,33 @@ form[name="submit-to-google-sheet"] button:hover {
       display: block;
   }
 
-  nav{
+  nav {
     width: 200px;
   }
 
-  .skills{
+  .skills {
     display: grid;
     gap: 134px;
   }
 
-  .skills-first{
+  .skills-first {
     height: 139px;
   }
 
-
-  .name{
+  .name {
     font-size: 26px;
+  }
+  .background-shapes{
+    display: none;
   }
 }
 
 @media (max-width: 375px) {
-  section{
+  section {
     width: 338px;
+  }
+
+  .background-shapes{
+    display: none;
   }
 }
